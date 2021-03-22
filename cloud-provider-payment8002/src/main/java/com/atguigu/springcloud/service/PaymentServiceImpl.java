@@ -21,5 +21,6 @@ public class PaymentServiceImpl implements PaymentService{
     public Payment getPaymentById(Long id) {
         Payment payment=paymentDao.getPaymentById(id);
         return payment;
+        //select
     }
 }
